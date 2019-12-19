@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+    <head>
+        <meta charset="utf-8">
+        <title> favorite dogs </title>
+    </head>
+    
+    <body>
+        {%for dog in faves%}
+        <ul>
+            <li>
+                <img src = '{{dog[0]}}', alt = 'dog here'>
+            </li>
+        </ul>
+        {% endfor %}
+    </body>
+    
+</html>
